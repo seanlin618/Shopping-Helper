@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Household</key>
+	<array>
+		<string>Tissue</string>
+	</array>
+	<key>Beverage</key>
+	<array>
+		<string>Green Tea</string>
+		<string>Coffee</string>
+		<string>Milk Tea</string>
+	</array>
+	<key>Produce</key>
+	<array>
+		<string>Broccoli</string>
+		<string>Tomato</string>
+		<string>Onions</string>
+	</array>
+	<key>Bakery</key>
+	<array>
+		<string>Whole-grain Breads</string>
+		<string>Brown Rice Wraps</string>
+		<string>Whole-grain Wraps</string>
+	</array>
+	<key>Meat</key>
+	<array>
+		<string>Salmon</string>
+		<string>Chicken breast</string>
+		<string>Beef</string>
+	</array>
+	<key>Dairy</key>
+	<array>
+		<string>Eggs</string>
+		<string>Skim Milk</string>
+		<string>Fat-free Soymilk</string>
+	</array>
+</dict>
+</plist>
