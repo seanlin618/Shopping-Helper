@@ -64,6 +64,9 @@
 		F78378171A362F4600EC84B7 /* 2christmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F78378161A362F4600EC84B7 /* 2christmas.mp3 */; };
 		F783781A1A3631E700EC84B7 /* 4christmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F78378181A3631E700EC84B7 /* 4christmas.mp3 */; };
 		F783781B1A3631E700EC84B7 /* 3christmas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F78378191A3631E700EC84B7 /* 3christmas.mp3 */; };
+		F785AFC4220DD37B005FAE36 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785AFC3220DD37B005FAE36 /* DogViewController.swift */; };
+		F785AFC6220DD4D8005FAE36 /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785AFC5220DD4D8005FAE36 /* DogAPI.swift */; };
+		F785AFC8220DDD3A005FAE36 /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785AFC7220DDD3A005FAE36 /* DogImage.swift */; };
 		F7AEF2EF1A342F9900421842 /* 0equals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7AEF2EE1A342F9900421842 /* 0equals.mp3 */; };
 		F7B1F36A20661D4B002EE9D3 /* StringExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1F36920661D4B002EE9D3 /* StringExtentsion.swift */; };
 		F7C8E7D51A0B276C00DF4FBF /* ShoppingList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C8E7D41A0B276C00DF4FBF /* ShoppingList.plist */; };
@@ -148,6 +151,9 @@
 		F78378161A362F4600EC84B7 /* 2christmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2christmas.mp3; sourceTree = "<group>"; };
 		F78378181A3631E700EC84B7 /* 4christmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4christmas.mp3; sourceTree = "<group>"; };
 		F78378191A3631E700EC84B7 /* 3christmas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3christmas.mp3; sourceTree = "<group>"; };
+		F785AFC3220DD37B005FAE36 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
+		F785AFC5220DD4D8005FAE36 /* DogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
+		F785AFC7220DDD3A005FAE36 /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
 		F7AEF2EE1A342F9900421842 /* 0equals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0equals.mp3; sourceTree = "<group>"; };
 		F7B1F36920661D4B002EE9D3 /* StringExtentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtentsion.swift; sourceTree = "<group>"; };
 		F7C8E7D41A0B276C00DF4FBF /* ShoppingList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShoppingList.plist; sourceTree = "<group>"; };
@@ -187,6 +193,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F785AFBE220DCF71005FAE36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7CB6BA81A05675700D92365 /* Main.storyboard */,
+				F7CB6BAB1A05675700D92365 /* Images.xcassets */,
+				F7CB6BAD1A05675700D92365 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F785AFBF220DCF96005FAE36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F72ED1FA1A32F1CB00075863 /* CalculatorViewController.swift */,
+				F7CB6BA61A05675700D92365 /* SecondViewController.swift */,
+				F7C8E7D61A0B2D5400DF4FBF /* ShopViewController.swift */,
+				F7C8E7DA1A0B316600DF4FBF /* DetailViewController.swift */,
+				F7366B731A0B5AE800043813 /* ItemViewController.swift */,
+				F7CB6BA41A05675700D92365 /* FirstViewController.swift */,
+				F7CB6BA21A05675700D92365 /* AppDelegate.swift */,
+				F785AFC3220DD37B005FAE36 /* DogViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F785AFC0220DCFC0005FAE36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7C8E7D81A0B2DA300DF4FBF /* Shoplist.swift */,
+				F785AFC5220DD4D8005FAE36 /* DogAPI.swift */,
+				F785AFC7220DDD3A005FAE36 /* DogImage.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		F7CB6B941A05675700D92365 = {
 			isa = PBXGroup;
 			children = (
@@ -209,17 +250,9 @@
 		F7CB6B9F1A05675700D92365 /* Shopping Helper */ = {
 			isa = PBXGroup;
 			children = (
-				F7CB6BA21A05675700D92365 /* AppDelegate.swift */,
-				F7CB6BA41A05675700D92365 /* FirstViewController.swift */,
-				F7CB6BA61A05675700D92365 /* SecondViewController.swift */,
-				F7C8E7D61A0B2D5400DF4FBF /* ShopViewController.swift */,
-				F7C8E7DA1A0B316600DF4FBF /* DetailViewController.swift */,
-				F7366B731A0B5AE800043813 /* ItemViewController.swift */,
-				F7C8E7D81A0B2DA300DF4FBF /* Shoplist.swift */,
-				F72ED1FA1A32F1CB00075863 /* CalculatorViewController.swift */,
-				F7CB6BA81A05675700D92365 /* Main.storyboard */,
-				F7CB6BAB1A05675700D92365 /* Images.xcassets */,
-				F7CB6BAD1A05675700D92365 /* LaunchScreen.xib */,
+				F785AFC0220DCFC0005FAE36 /* Model */,
+				F785AFBF220DCF96005FAE36 /* Controller */,
+				F785AFBE220DCF71005FAE36 /* View */,
 				F7CB6BA01A05675700D92365 /* Supporting Files */,
 				F7B1F36920661D4B002EE9D3 /* StringExtentsion.swift */,
 			);
@@ -473,12 +506,15 @@
 			files = (
 				F7366B741A0B5AE800043813 /* ItemViewController.swift in Sources */,
 				F7C8E7D71A0B2D5400DF4FBF /* ShopViewController.swift in Sources */,
+				F785AFC6220DD4D8005FAE36 /* DogAPI.swift in Sources */,
 				F72ED1FB1A32F1CB00075863 /* CalculatorViewController.swift in Sources */,
+				F785AFC4220DD37B005FAE36 /* DogViewController.swift in Sources */,
 				F7CB6BA71A05675700D92365 /* SecondViewController.swift in Sources */,
 				F7CB6BA31A05675700D92365 /* AppDelegate.swift in Sources */,
 				F7C8E7DB1A0B316600DF4FBF /* DetailViewController.swift in Sources */,
 				F7CB6BA51A05675700D92365 /* FirstViewController.swift in Sources */,
 				F7B1F36A20661D4B002EE9D3 /* StringExtentsion.swift in Sources */,
+				F785AFC8220DDD3A005FAE36 /* DogImage.swift in Sources */,
 				F7C8E7D91A0B2DA300DF4FBF /* Shoplist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

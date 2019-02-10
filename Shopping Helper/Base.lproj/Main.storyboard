@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,7 +25,7 @@
                                 <rect key="frame" x="150" y="237" width="20" height="20"/>
                             </activityIndicatorView>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YXe-tm-cQP">
-                                <rect key="frame" x="0.0" y="20" width="320" height="438"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="358"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snowflake" translatesAutoresizingMaskIntoConstraints="NO" id="g6T-fn-14i">
@@ -37,8 +36,8 @@
                                 <rect key="frame" x="16" y="86" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7R-Mb-dSA">
-                                <rect key="frame" x="153" y="478" width="89" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7R-Mb-dSA">
+                                <rect key="frame" x="153" y="398" width="89" height="120"/>
                                 <state key="normal" image="Walmart">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -46,8 +45,8 @@
                                     <action selector="WalmartBPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Aj5-rb-Cfk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLB-oL-fdY">
-                                <rect key="frame" x="22" y="478" width="40" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLB-oL-fdY">
+                                <rect key="frame" x="22" y="398" width="40" height="120"/>
                                 <state key="normal" image="Target">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -56,14 +55,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Dr-q0-4np">
-                                <rect key="frame" x="245" y="475" width="59" height="40"/>
+                                <rect key="frame" x="245" y="395" width="59" height="120"/>
                                 <state key="normal" image="Rakuten"/>
                                 <connections>
                                     <action selector="RakutenBPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="eF6-F0-iza"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zph-Fs-MvI">
-                                <rect key="frame" x="80" y="477" width="65" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zph-Fs-MvI">
+                                <rect key="frame" x="80" y="397" width="65" height="120"/>
                                 <state key="normal" image="KingSoopers">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -103,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="388" y="-671"/>
+            <point key="canvasLocation" x="161" y="-965"/>
         </scene>
         <!--Food Tracker-->
         <scene sceneID="wg7-f3-ORb">
@@ -129,7 +128,7 @@
                                 </connections>
                             </pickerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Broccoli" translatesAutoresizingMaskIntoConstraints="NO" id="MDu-Tn-RIb">
-                                <rect key="frame" x="76" y="28" width="169" height="200"/>
+                                <rect key="frame" x="76" y="28" width="169" height="400"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purchase Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNA-Ne-COe">
                                 <rect key="frame" x="25" y="361" width="112" height="21"/>
@@ -148,7 +147,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAg-Fr-0uq">
-                                <rect key="frame" x="186" y="408" width="61" height="29"/>
+                                <rect key="frame" x="185" y="408" width="62" height="29"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <state key="normal" title="68~79℉">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -218,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="546" y="12"/>
+            <point key="canvasLocation" x="829" y="-606"/>
         </scene>
         <!--Shop View Controller-->
         <scene sceneID="r22-4t-MyZ">
@@ -266,7 +265,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sST-go-V8Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="778.66666666666663" y="664.55999999999995"/>
+            <point key="canvasLocation" x="1198" y="75"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="NiD-Vy-RkQ">
@@ -306,7 +305,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OeE-MR-nSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1164.2666666666667" y="664.55999999999995"/>
+            <point key="canvasLocation" x="1911" y="75"/>
         </scene>
         <!--Item View Controller-->
         <scene sceneID="KlV-dV-hZR">
@@ -321,16 +320,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="WEl-OC-fLi">
-                                <rect key="frame" x="120" y="90" width="80" height="50"/>
+                                <rect key="frame" x="120" y="90" width="80" height="152"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Item:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icj-JV-4qI">
-                                <rect key="frame" x="25" y="187" width="74" height="21"/>
+                                <rect key="frame" x="25" y="289.5" width="74" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6DK-qS-39y">
-                                <rect key="frame" x="122" y="183" width="174" height="30"/>
+                                <rect key="frame" x="122.5" y="285" width="173.5" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -366,7 +365,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NX5-jL-bbl" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="s6R-qk-6L9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2009" y="664"/>
+            <point key="canvasLocation" x="3261" y="75"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -383,11 +382,45 @@
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="16y-TD-FPj" kind="relationship" relationship="viewControllers" id="CXx-MI-1dR"/>
                         <segue destination="1Un-BE-aBK" kind="relationship" relationship="viewControllers" id="KAF-dS-yzE"/>
+                        <segue destination="d6f-cV-C5g" kind="relationship" relationship="viewControllers" id="Gtl-qF-gmw"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-27.733333333333334" y="-46.386666666666663"/>
+            <point key="canvasLocation" x="-701" y="-274"/>
+        </scene>
+        <!--Doggy-->
+        <scene sceneID="vhU-tU-HrZ">
+            <objects>
+                <viewController id="d6f-cV-C5g" customClass="DogViewController" customModule="Shopping_Helper" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yua-5M-NqY"/>
+                        <viewControllerLayoutGuide type="bottom" id="BTB-Ud-pyb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UCC-2Q-Ar8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wSi-i3-5CD">
+                                <rect key="frame" x="16" y="28" width="288" height="483"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wSi-i3-5CD" firstAttribute="leading" secondItem="UCC-2Q-Ar8" secondAttribute="leadingMargin" id="3bW-D1-KE1"/>
+                            <constraint firstItem="wSi-i3-5CD" firstAttribute="top" secondItem="Yua-5M-NqY" secondAttribute="bottom" constant="8" id="Aya-0D-v6u"/>
+                            <constraint firstItem="wSi-i3-5CD" firstAttribute="trailing" secondItem="UCC-2Q-Ar8" secondAttribute="trailingMargin" id="JpB-0V-ylz"/>
+                            <constraint firstItem="BTB-Ud-pyb" firstAttribute="top" secondItem="wSi-i3-5CD" secondAttribute="bottom" constant="8" id="aZW-Vn-uK6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Doggy" image="doggy" id="EBC-uc-CpG"/>
+                    <connections>
+                        <outlet property="imageView" destination="wSi-i3-5CD" id="74l-WQ-Ucv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IYw-g2-6lC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-663.75" y="694.0140845070423"/>
         </scene>
         <!--Calculator-->
         <scene sceneID="IYA-ss-SLx">
@@ -409,13 +442,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Languages" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfT-E0-HAE">
-                                <rect key="frame" x="16" y="48" width="85" height="21"/>
+                                <rect key="frame" x="16" y="48.5" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="IYK-5X-by2">
-                                <rect key="frame" x="86" y="77" width="218" height="29"/>
+                                <rect key="frame" x="86" y="77.5" width="218" height="29"/>
                                 <segments>
                                     <segment title="English"/>
                                     <segment title="Chinese"/>
@@ -624,7 +657,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dmi-cZ-qAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-170" y="709"/>
+            <point key="canvasLocation" x="159" y="821"/>
         </scene>
         <!--Shopping List-->
         <scene sceneID="I9x-Rz-4ae">
@@ -633,6 +666,7 @@
                     <tabBarItem key="tabBarItem" title="Shopping List" image="Shopping" id="Lu9-tL-GDh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OZD-DI-Pqd">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -642,7 +676,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j0G-81-hnj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="367" y="709"/>
+            <point key="canvasLocation" x="503" y="76"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ok3-ko-1Ku">
@@ -660,23 +694,24 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U73-Do-c6x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1600" y="657"/>
+            <point key="canvasLocation" x="2580" y="75"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Broccoli" width="200" height="200"/>
-        <image name="KingSoopers" width="65" height="40"/>
-        <image name="Magnifier" width="30" height="30"/>
-        <image name="Rakuten" width="40" height="40"/>
+        <image name="Broccoli" width="400" height="400"/>
+        <image name="KingSoopers" width="195" height="120"/>
+        <image name="Magnifier" width="48" height="48"/>
+        <image name="Rakuten" width="120" height="120"/>
         <image name="Shopping" width="30" height="30"/>
-        <image name="Target" width="40" height="40"/>
+        <image name="Target" width="120" height="120"/>
         <image name="WEB" width="28" height="28"/>
-        <image name="Walmart" width="90" height="40"/>
-        <image name="button" width="300" height="300"/>
-        <image name="calculator" width="30" height="30"/>
-        <image name="logo" width="50" height="50"/>
+        <image name="Walmart" width="271" height="120"/>
+        <image name="button" width="306.38296508789062" height="306.38296508789062"/>
+        <image name="calculator" width="1.2189615964889526" height="1.2189615964889526"/>
+        <image name="doggy" width="24" height="24"/>
+        <image name="logo" width="152" height="152"/>
         <image name="snowflake" width="50" height="50"/>
-        <image name="soundOff" width="300" height="300"/>
-        <image name="soundOn" width="300" height="300"/>
+        <image name="soundOff" width="306.38296508789062" height="306.38296508789062"/>
+        <image name="soundOn" width="306.38296508789062" height="306.38296508789062"/>
     </resources>
 </document>

@@ -20,7 +20,7 @@ class FirstViewController: UIViewController,UIWebViewDelegate {
     
     var christmasMusic  = "christmas"
     
-    var delta = CGPoint(x:12, y:4)
+    var delta = CGPoint(x:12, y:4) //initialize the delta to move 12 pixels horizontally, 4 pixels vertically
     var snowRadius = CGFloat()
     var snowRadius2 = CGFloat()
     var timer = Timer()
